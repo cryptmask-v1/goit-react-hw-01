@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card-container > div {
+  padding: 20px 15px;
+}
+
+.card-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  background-color: #333;
+}
+
+.card-container p:first-of-type {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.card-container p:nth-of-type(2) {
+  font-size: 0.9em;
+  color: #888;
+  margin: 5px 0;
+}
+
+.card-container p:nth-of-type(3) {
+  font-size: 0.9em;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.follower-container {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.follower-li {
+  flex: 1;
+  padding: 10px 0;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+
+.follower-li:last-child {
+  border-right: none;
+}
+
+.follower-li span:first-of-type {
+  display: block;
+  font-size: 0.8em;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.follower-li span:last-of-type {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+}
+/* friends */
+.friends-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.friend-avatar {
+  padding: 5px;
+}
+
+.friends-list {
+  width: 120px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+/* table */
+
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.thead-container {
+  background-color: #333;
+  color: #fff;
+}
+
+.table-container th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.table-container tbody tr:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background-color: #a8a8a8;
+}
